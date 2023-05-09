@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bu bir açiklamadir">
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400&family=Fredoka+One&family=Questrial&family=Staatliches&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1 id="appTitle">🍿Film Finder🍿</h1>
+    </header>
+
+    <form id="genreForm">
+        <label>Choose a genre:</label>
+        <select name="genres" id="genres">
+            <option name="comedy" > Comedy</option>
+            <option name="drama"> Drama</option>
+        </select>
+    </form>
+
+    <button id="playBtn">
+        Let's Play!
+    </button>
+
+    <div id="movieInfo">
+        <div id="moviePoster">
+            <img src="https://image.tmdb.org/t/p/original//jntLBq0MLR3hrwKaTQswxACRPMs.jpg" alt="harry potter" id="moviePoster">
+        </div>
+        <div id="movieText">
+            <h1 id="movieTitle">Harry Potter 20th Anniversary: Return to Hogwarts</h1>
+            <p id="movieOverview">
+                An enchanting making-of story told through all-new in-depth interviews and cast conversations, inviting fans on a magical first-person journey through one of the most beloved film franchises of all time.
+            </p>
+        </div>
+    </div>
+
+    <div id="likeOrDislikeBtns">
+        <button id="likeBtn"><i class="fa-solid fa-thumbs-up"></i></button>
+        <button id="dislikeBtn"><i class="fa-solid fa-thumbs-down"></i></button>
+    </div>
+
+</body>
+
+</html>
